@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel/Slideshow </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+        <header>
+            <h1> Exclusive Houses For Sale</h1>
+        </header>
+        
+        <div class="container">
+
+            <figure class="slider">
+                <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=600" alt="bungalow1">
+                <img src="https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=600" alt="bungalow2">
+                <img src="https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=600" alt="bungalow3">
+                <img src="https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&w=600" alt="bungalow4">
+                <img src="https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?auto=compress&cs=tinysrgb&w=600" alt="bungalow5">
+                <img src="https://images.pexels.com/photos/962989/pexels-photo-962989.jpeg?auto=compress&cs=tinysrgb&w=600" alt="bungalow6">
+            </figure>
+
+            <div class="arrow">
+                <i class="fas fa-chevron-left" id="prevBtn" onclick="changeSlide(-1)"></i>
+                <i class="fas fa-chevron-right" id="nextBtn" onclick="changeSlide(1)"></i>
+            </div>
+
+        </div>
+
+        <script src="app.js"></script>
+</body>
+</html>
