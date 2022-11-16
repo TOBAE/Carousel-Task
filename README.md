@@ -2,6 +2,6 @@
 
 Created a simple Carousel/Slideshow 
 
-# Hosting
+### HOSTING
 
-Check it out [here](bucolic-macaron-52d765) 
+Check it out [here](https://bucolic-macaron-52d765.netlify.app/)
